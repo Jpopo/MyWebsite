@@ -1,0 +1,110 @@
+/*style.css*/
+body {
+ background-image: url("simpleBG.jpg");
+ font-family: sans-serif;
+}
+
+a:hover{
+	background-color: yellow;
+}
+
+h1 {
+ text-align: center;
+ font-family: "Copperplate", Fantasy;
+ font-size: 35px;
+ font-family: sans-serif;
+}
+h2 {
+	text-align: center;
+	font-family: "arial";
+
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	text-align: center;
+	padding: 10px;
+	border-collapse: collapse;
+	font-family: sans-serif;
+}
+
+th, td{
+	
+	width: 20%;
+	text-align: center;
+	padding: 10px;
+	font-family: sans-serif;
+}
+
+tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+h4{
+	text-align: left;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+ul.a{
+	list-style-type: square;
+	text-align: left;
+}
+ul.b{
+	list-style-type: upper-roman;
+}
+
+.quote{
+	border: 5px outset black;
+	background-color: rgba(255, 177, 30, .9);
+	color: white;
+	font-family: sans-serif;
+}
+
+p.links{
+	text-align: center;
+	font-size: 25px;
+}
+
+span.Georgia{
+	color: red;
+	font-weight: bold;
+}
+span.State{
+	color: red;
+	font-weight: bold;
+}
+span.Computer{
+	color: red;
+	font-weight: bold;
+}
+span.Science{
+	color: red;
+	font-weight: bold;
+}
+span.Travel{
+	color: red;
+	font-weight: bold;
+}
+span.Games{
+	color: red;
+	font-weight: bold;
+}
+p.lorax{
+	height: 50%;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
